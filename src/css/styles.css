@@ -31,3 +31,33 @@
 }
 
 /*     END DEFAULT STYLE     */
+
+#tagHolder{
+  position: relative;
+  color: #FFFFFF;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transition: all 1s;
+  transform: translate(-50%, -50%) scale(0);
+  text-align: center;
+}
+
+#tagHolder.grow{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#SVGHolder{
+  position: relative;
+  width: 24%;
+  height: auto;
+  margin: 1vw auto;
+}
+
+#textHolder {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-family: 'Crimson Text';
+  line-height: 1;
+}
